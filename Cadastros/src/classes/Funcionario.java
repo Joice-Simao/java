@@ -52,5 +52,8 @@ public class Funcionario {
 		return (this.horasTrabalhadas * this.valorHora);
 	}
 	@Override
-	System.out.println(funcionario1.toString());
+	public String toString() {
+		return "Funcionario \nmatricula=" + matricula + ", \nhorasTrabalhadas=" + horasTrabalhadas + ", \nvalorHora="
+				+ valorHora + ", \nnome=" + nome ;
+	}
 }

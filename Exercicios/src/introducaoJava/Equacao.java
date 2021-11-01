@@ -29,8 +29,6 @@ public class Equacao {
 
 		x = ((c * ee) - (b * f)) / ((a * ee) - (b * d));
 		y = ((a * f) - (c * d)) / ((a * ee) - (b * d));
-		c = ((a * x) + (b * y));
-		f = ((d * x) + (ee * y));
 
 		System.out.println("Resultado: ");
 		System.out.printf("\nX = %.2f", x);
